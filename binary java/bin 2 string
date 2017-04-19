@@ -1,20 +1,20 @@
 import java.io.UnsupportedEncodingException;
-import java.io.BufferedReader;
-import java.io.IOException;
 import java.io.FileReader;
 import java.io.File;
 import java.io.PrintWriter;
+import java.io.BufferedReader;
+import java.io.IOException;
 
-public class BinaryToString
+public class BinToStr
 {
 	public static void main(String[] args) throws UnsupportedEncodingException
 	{
 		String line;
 		BufferedReader br = null;
-		File reverse = new File("/root/Desktop/lab1#java/reverse.txt");
+		File reverse = new File("/root/lab1#java/reverse.txt");
 		try
 		{
-			br = new BufferedReader(new FileReader("/root/Desktop/lab1#java/binary.bin"));
+			br = new BufferedReader(new FileReader("/root/lab1#java/binary.bin"));
 			
 			//PrintWriter pw = new PrintWriter(file);
 			if(!reverse.exists())
